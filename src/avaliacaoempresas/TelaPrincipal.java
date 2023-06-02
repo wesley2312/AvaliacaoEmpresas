@@ -113,7 +113,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1366, 768));
-        setPreferredSize(new java.awt.Dimension(1366, 768));
         getContentPane().setLayout(null);
 
         jButton1.setBackground(new java.awt.Color(51, 51, 51));
@@ -135,12 +134,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBox1);
-        jComboBox1.setBounds(250, 250, 120, 30);
+        jComboBox1.setBounds(710, 460, 120, 30);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel1.setText("Escreva um comentário:");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(420, 470, 145, 28);
+        jLabel1.setBounds(610, 620, 145, 28);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel2.setText("Nome do estabelecimento");
@@ -149,28 +148,28 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jLabel4.setText("foto do estabelecimento");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(630, 320, 140, 16);
+        jLabel4.setBounds(700, 420, 140, 16);
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/11929743_shop2.jpg"))); // NOI18N
         jLabel6.setText("jLabel6");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(630, 90, 400, 230);
+        jLabel6.setBounds(700, 160, 400, 260);
 
-        jLabel7.setText("Classifique de 1 a 5 qual a pontuação você daria para essa empresa");
+        jLabel7.setText("selecione qual a sua avaliação para esta empresa");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(120, 210, 410, 30);
+        jLabel7.setBounds(680, 510, 410, 30);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/IM.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(0, -190, 240, 1020);
+        jLabel3.setBounds(0, -190, 220, 1020);
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(420, 500, 790, 130);
+        jScrollPane1.setBounds(310, 450, 380, 90);
         getContentPane().add(jSeparator1);
         jSeparator1.setBounds(290, 270, 0, 3);
 
@@ -181,7 +180,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea2);
 
         getContentPane().add(jScrollPane2);
-        jScrollPane2.setBounds(630, 360, 400, 86);
+        jScrollPane2.setBounds(270, 200, 400, 86);
 
         jMenuBar1.setBorder(null);
 

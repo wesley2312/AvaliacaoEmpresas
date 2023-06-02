@@ -1,18 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package avaliacaoempresas;
 
-/**
- *
- * @author wesker
- */
 public class CadastrarUsuario extends javax.swing.JFrame {
 
-    /**
-     * Creates new form CadastrarUsuario
-     */
     public CadastrarUsuario() {
         initComponents();
     }
@@ -27,7 +17,7 @@ public class CadastrarUsuario extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        nomeUser = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
@@ -37,7 +27,7 @@ public class CadastrarUsuario extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jTextField5 = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        btnCadUser = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
@@ -52,19 +42,19 @@ public class CadastrarUsuario extends javax.swing.JFrame {
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 171, 801);
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        nomeUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                nomeUserActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1);
-        jTextField1.setBounds(300, 190, 330, 30);
+        getContentPane().add(nomeUser);
+        nomeUser.setBounds(300, 190, 300, 22);
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(300, 250, 330, 30);
+        jTextField2.setBounds(300, 250, 300, 22);
         getContentPane().add(jTextField3);
-        jTextField3.setBounds(300, 310, 330, 30);
+        jTextField3.setBounds(300, 310, 300, 22);
         getContentPane().add(jTextField4);
-        jTextField4.setBounds(300, 380, 330, 30);
+        jTextField4.setBounds(300, 380, 300, 22);
 
         jLabel2.setText("Nome completo:");
         getContentPane().add(jLabel2);
@@ -82,15 +72,15 @@ public class CadastrarUsuario extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(300, 360, 130, 16);
         getContentPane().add(jTextField5);
-        jTextField5.setBounds(301, 450, 330, 30);
+        jTextField5.setBounds(301, 450, 300, 22);
 
         jLabel6.setText("Cie uma senha:");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(300, 430, 100, 16);
 
-        jButton1.setText("Cadastrar");
-        getContentPane().add(jButton1);
-        jButton1.setBounds(420, 500, 100, 23);
+        btnCadUser.setText("Cadastrar");
+        getContentPane().add(btnCadUser);
+        btnCadUser.setBounds(420, 500, 100, 23);
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel7.setText("Cadastrar usuário");
@@ -99,7 +89,7 @@ public class CadastrarUsuario extends javax.swing.JFrame {
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/review (1).png"))); // NOI18N
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(630, 150, 530, 360);
+        jLabel8.setBounds(630, 100, 530, 360);
 
         jMenuBar1.setBorder(null);
 
@@ -114,9 +104,9 @@ public class CadastrarUsuario extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void nomeUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nomeUserActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_nomeUserActionPerformed
 
     /**
      * @param args the command line arguments
@@ -154,7 +144,7 @@ public class CadastrarUsuario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnCadUser;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -166,10 +156,10 @@ public class CadastrarUsuario extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField nomeUser;
     // End of variables declaration//GEN-END:variables
 }
